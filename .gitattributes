@@ -6,6 +6,7 @@
 # and nothing else, no characters before, no characters after
 # Start of linguist script
 # HTML (HyperText Markup Language) document
+# HTML is to remain the dominant language on this project, due to its overwhelming importance with my web development story
 *.htm linguist-detectable=true
 *.htm linguist-documentation=false
 *.htm linguist-language=HTML
@@ -29,11 +30,11 @@
 *.hta linguist-documentation=false
 *.hta linguist-language=HTML
 # CSS (Cascade Styling Sheets) stylesheet file
-*.css linguist-detectable=true
+*.css linguist-detectable=false
 *.css linguist-documentation=false
 *.css linguist-language=CSS
 # Less stylesheet file
-*.less linguist-detectable=true
+*.less linguist-detectable=false
 *.less linguist-documentation=false
 *.less linguist-language=Less
 # JSON (JavaScript Object Notation) source file
@@ -41,11 +42,11 @@
 *.json linguist-documentation=false
 *.json linguist-language=JSON
 # WebVTT subtitle file
-*.vtt linguist-detectable=true
+*.vtt linguist-detectable=false
 *.vtt linguist-documentation=false
 *.vtt linguist-language=WebVTT
 # SubRip subtitle file
-*.srt linguist-detectable=true
+*.srt linguist-detectable=false
 *.srt linguist-documentation=false
 *.srt linguist-language=SubRip-Text
 # YAML (YAML Ain't Markup Language) document
@@ -161,10 +162,12 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Thursday, January 12th at 5:52 pm PST)
+# Line count (including blank lines and compiler line): 174
+
 # End of script
